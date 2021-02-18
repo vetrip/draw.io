@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T00:28:01.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iCLF4teBWqJic2Ec0S7K" version="14.3.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-18T00:29:57.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="jVC_C9RYoZImnLj1tB3K" version="14.3.0" type="github" pages="10">
   <diagram id="bOEeoDdDlkOXnG0sSGKu" name="Why Docker?">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -779,7 +779,7 @@
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-0" />
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-1" parent="ZuMT54vv3cg4ViFVReIQ-0" />
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-2" value="Kubernetes Node" style="swimlane;" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
-          <mxGeometry x="-310" y="80" width="620" height="400" as="geometry" />
+          <mxGeometry x="-290" y="80" width="620" height="400" as="geometry" />
         </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-2" source="ZuMT54vv3cg4ViFVReIQ-3" target="ZuMT54vv3cg4ViFVReIQ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -806,10 +806,10 @@
           <mxGeometry x="210" y="190" width="133" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fZiU2c1c6j4qze79bo-z-4" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
-          <mxGeometry x="456.5" y="240" width="133.5" height="20" as="geometry" />
+          <mxGeometry x="461.75" y="240" width="133.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fZiU2c1c6j4qze79bo-z-0" value="Persistent Volume Claim" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
-          <mxGeometry x="456.5" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="441.5" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-8" value="Cluster IP&amp;nbsp;&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
           <mxGeometry x="146" y="190" width="70" height="100" as="geometry" />
@@ -823,16 +823,19 @@
         <mxCell id="L8dkDV1j7tI019RatR9u-2" value="employees-api" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZuMT54vv3cg4ViFVReIQ-2">
           <mxGeometry x="217" y="250" width="126" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ZuMT54vv3cg4ViFVReIQ-20" value="Cluster IP&amp;nbsp;&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
+          <mxGeometry x="391.75" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuMT54vv3cg4ViFVReIQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-2" source="ZuMT54vv3cg4ViFVReIQ-9" target="ZuMT54vv3cg4ViFVReIQ-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fZiU2c1c6j4qze79bo-z-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-1" source="ZuMT54vv3cg4ViFVReIQ-19" target="fZiU2c1c6j4qze79bo-z-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="204.5" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-19" value="my-sql" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
-          <mxGeometry x="143" y="340" width="137" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZuMT54vv3cg4ViFVReIQ-20" value="Cluster IP&amp;nbsp;&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
-          <mxGeometry x="76" y="320" width="70" height="60" as="geometry" />
+          <mxGeometry x="170" y="340" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-1" source="ZuMT54vv3cg4ViFVReIQ-21" target="ZuMT54vv3cg4ViFVReIQ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -842,9 +845,6 @@
         </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-22" value="Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
           <mxGeometry x="-505" y="240" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZuMT54vv3cg4ViFVReIQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="ZuMT54vv3cg4ViFVReIQ-1" source="ZuMT54vv3cg4ViFVReIQ-9" target="ZuMT54vv3cg4ViFVReIQ-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XnWtXpGJlJHClUydIL9z-0" value="Node&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;font-size: 31px&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=31;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
           <mxGeometry x="-80" y="620" width="1100" height="432" as="geometry" />
