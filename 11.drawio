@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T22:53:03.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="D5o5uUAY5_hmbWGKr6Hh" version="15.0.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-10-14T23:19:07.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="y6k3Hc9mZy8LfkDthJYl" version="15.0.2" type="github" pages="10">
   <diagram id="bOEeoDdDlkOXnG0sSGKu" name="Why Docker?">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -965,9 +965,6 @@
         <mxCell id="fZiU2c1c6j4qze79bo-z-4" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
           <mxGeometry x="461.75" y="240" width="133.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fZiU2c1c6j4qze79bo-z-0" value="Persistent Volume Claim" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
-          <mxGeometry x="441.5" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ZuMT54vv3cg4ViFVReIQ-8" value="Cluster IP&amp;nbsp;&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="ZuMT54vv3cg4ViFVReIQ-2" vertex="1">
           <mxGeometry x="146" y="190" width="70" height="100" as="geometry" />
         </mxCell>
@@ -1145,6 +1142,9 @@
         </mxCell>
         <mxCell id="XnWtXpGJlJHClUydIL9z-45" value="Set of routing rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
           <mxGeometry x="21" y="968" width="121" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fZiU2c1c6j4qze79bo-z-0" value="Persistent Volume Claim" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZuMT54vv3cg4ViFVReIQ-1" vertex="1">
+          <mxGeometry x="171.75" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
